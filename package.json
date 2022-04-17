@@ -1,0 +1,21 @@
+{
+    "name": "popug-jira-spring-22",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RipDevil/popug-jira-spring-22.git"
+    },
+    "author": "Mark Naberukhin",
+    "devDependencies": {
+        "cz-customizable": "^6.3.0"
+    },
+    "config": {
+        "commitizen": {
+            "path": "node_modules/cz-customizable"
+        },
+        "cz-customizable": {
+            "config": "commitizen.cjs"
+        }
+    }
+}
+
